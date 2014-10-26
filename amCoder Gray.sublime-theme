@@ -510,18 +510,18 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [94, 94, 94] // 03
+        "color": [145, 145, 145] // 03
     },
     // Sidebar folder entry
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [94, 94, 94] // 03
+        "color": [145, 145, 145] // 03
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "color": [194, 194, 194] // 05
+        "color": [245, 245, 245] // 05
     },
     {
         "class": "sidebar_label",
