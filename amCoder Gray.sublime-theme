@@ -153,17 +153,26 @@
     {
         "class": "tab_label",
         "fade": true,
+        "setting": ["highlight_modified_tabs"],
         "fg": [94, 94, 94] // 03
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control","attributes": ["hover"]}],
+        "setting": ["highlight_modified_tabs"],
         "fg": [194, 194, 194] // 05
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control","attributes": ["selected"]}],
+        "setting": ["highlight_modified_tabs"],
         "fg": [242, 242, 242] // 06
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control","attributes": ["dirty"]}],
+        "setting": ["highlight_modified_tabs"],
+        "fg": [230, 219, 116] // 06
     },
 
 //
